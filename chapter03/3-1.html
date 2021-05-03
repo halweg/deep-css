@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+    :root {
+        box-sizing: border-box;
+    }
+    *,
+    ::before,
+    ::after{
+        box-sizing: inherit;
+    }
+
+    body {
+        background-color: #eee;
+        font-family: "Helvetica", Arial sans-serif;
+    }
+
+    header {
+        color: #fff;
+        background-color: #0072b0;
+        border-radius: 0.2em;
+    }
+
+    main {
+        display: block;
+    }
+
+    .main {
+        background-color: #fff;
+        border-radius:.5em;
+        width: 70%;
+        float: left;
+    }
+
+    .sidebar {
+        padding : 1.5em;
+        border-radius:.5em;
+        background-color: #fff;
+        width: calc(30% - 1.5em);
+        margin-left: 1.5em;
+        float: left;
+        height: 10em;
+    }
+
+</style>
+
+<body>
+    <header>
+        <h1>
+            Franklin Running Club
+        </h1>
+    </header>
+
+    <div class="container">
+        <main class="main">
+            <h2>
+                Come join us!
+            </h2>
+            <p>
+                The Franklin Running club meets at 6::00pm everday
+                at the town square. Runs are three to five miles,at
+                your own place
+            </p>
+        </main>
+        <aside class="sidebar">
+            <div class="widget"></div>
+            <div class="widget"></div>
+        </aside>
+    </div>
+
+</body>
+</html>
