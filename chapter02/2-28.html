@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    :root{
+        --main-bg: #fff;
+        --main-color : #000;
+    }
+    .panel {
+        font-size:1rem;
+        border : 1px solid #999;
+        border-radius : 0.5em;
+        padding: 0.5em;
+        color : var(--main-color);
+        background-color: var(--main-bg);
+    }
+
+    .panel > h2 {
+        margin-top : 0;
+        font-size:0.8em;
+        font-weight:bold;
+        text-transform: uppercase;
+    }
+
+    .dark {
+        margin-top: 2em;
+        padding : 1em;
+        background-color : #999;
+        --main-bg: #333;
+        --main-color: #fff;
+    }
+</style>
+<body>
+    <div class="panel">
+        <h2>Single-origin</h2>
+        <div class="body">
+            We have built partnerships with small farms
+            around the world to hand-select beans at the
+            peak of season.We then careful roast in small batches
+            to maxinize their potential.
+        </div>
+    </div>
+
+    <aside class="dark">
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="body">
+                We have built partnerships with small farms
+                around the world to hand-select beans at the
+                peak of season.We then careful roast in small batches
+                to maxinize their potential.
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
